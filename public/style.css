@@ -1,0 +1,38 @@
+
+html,body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+canvas {
+    max-width: 1100px;
+    position: fixed;
+    top: 50%;
+             left: 50%;
+             transform: translate(-50%, -50%);
+    z-index: -1;
+    }
+
+#instructions{
+    color:white;
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: -100px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+#instructions button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 12px;
+}
+
+#instructions button:hover{
+    background-color: rgb(30, 30, 30);
+}
